@@ -108,11 +108,14 @@
 
 .section-three {
     background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
 }
 
 .quote {
     font-size: 36px;
-    padding: 100px 570px 0px 570px;
+    width: 800px;
 }
 
 .quote-box {
@@ -122,10 +125,9 @@
 }
 
 .thor {
-    align-self: flex-end;
-    padding-right: 600px;
     font-size: 18px;
     font-weight: 900;
+    align-self: flex-end;
 }
 
 .section-four {
